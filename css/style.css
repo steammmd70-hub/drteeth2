@@ -1952,3 +1952,7 @@ img {
 /* ===========================
    END OF CSS
    =========================== */
+/* إخفاء Footer */
+.footer {
+    display: none !important;
+}
