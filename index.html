@@ -8,36 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container-fluid">
-            <div class="top-bar-content">
-                <div class="top-bar-left">
-                    <a href="tel:+966501234567" class="top-link">
-                        <i class="fas fa-phone-alt"></i>
-                        <span>+966 50 123 4567</span>
-                    </a>
-                    <a href="mailto:info@dental.sa" class="top-link">
-                        <i class="fas fa-envelope"></i>
-                        <span>info@dental.sa</span>
-                    </a>
-                </div>
-                <div class="top-bar-right">
-                    <span class="top-text">
-                        <i class="fas fa-clock"></i>
-                        السبت - الخميس: 8 صباحاً - 10 مساءً
-                    </span>
-                    <div class="social-icons-top">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="container-fluid">
@@ -60,13 +31,13 @@
                     <li><a href="#services" class="nav-item">الخدمات</a></li>
                     <li><a href="#gallery" class="nav-item">معرض الأعمال</a></li>
                     <li><a href="#testimonials" class="nav-item">آراء المرضى</a></li>
-                    <li><a href="#contact" class="nav-item">اتصل بنا</a></li>
+                    <li><a href="#appointment" class="nav-item">احجز موعد</a></li>
                 </ul>
 
                 <div class="navbar-cta">
-                    <a href="#appointment" class="cta-button">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span>احجز موعد</span>
+                    <a href="tel:+966501234567" class="cta-button">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>اتصل الآن</span>
                     </a>
                     <button class="mobile-toggle" id="mobileToggle">
                         <span></span>
@@ -80,98 +51,60 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-bg">
-            <div class="hero-shape shape-1"></div>
-            <div class="hero-shape shape-2"></div>
-            <div class="hero-shape shape-3"></div>
-        </div>
-
         <div class="container-fluid">
-            <div class="hero-grid">
+            <div class="hero-content">
                 <div class="hero-text">
-                    <div class="hero-label">
-                        <span class="label-icon">⭐</span>
-                        <span>الأفضل في المملكة 2024</span>
-                    </div>
-
-                    <h1 class="hero-heading">
-                        ابتسامتك الجميلة
-                        <span class="gradient-text">تبدأ من هنا</span>
+                    <span class="hero-badge">⭐ الأفضل في المملكة 2024</span>
+                    
+                    <h1 class="hero-title">
+                        ابدأ رحلتك نحو
+                        <span class="gradient-text">ابتسامة مثالية</span>
                     </h1>
 
-                    <p class="hero-subtext">
-                        مع د. خالد المطيري، استشاري طب الأسنان التجميلي والزراعة
+                    <p class="hero-description">
+                        أهلاً بك في مركز التميز لطب الأسنان. مع د. خالد المطيري - استشاري طب الأسنان التجميلي 
                         نقدم لك أحدث التقنيات العالمية وأرقى مستويات الرعاية الطبية
                     </p>
 
-                    <div class="hero-actions">
-                        <a href="#appointment" class="action-btn primary">
-                            <span>احجز استشارة مجانية</span>
-                            <i class="fas fa-arrow-left"></i>
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary">
+                            <i class="fas fa-calendar-check"></i>
+                            احجز استشارة مجانية
                         </a>
-                        <a href="#services" class="action-btn secondary">
-                            <i class="fas fa-play"></i>
-                            <span>شاهد خدماتنا</span>
+                        <a href="tel:+966501234567" class="btn btn-secondary">
+                            <i class="fas fa-phone-alt"></i>
+                            اتصل بنا: 966+ 50 123 4567
                         </a>
                     </div>
 
                     <div class="hero-stats">
-                        <div class="stat-box">
-                            <div class="stat-icon">
-                                <i class="fas fa-user-check"></i>
-                            </div>
-                            <div class="stat-info">
-                                <h3>12,000+</h3>
-                                <p>حالة ناجحة</p>
-                            </div>
+                        <div class="stat-item">
+                            <div class="stat-number">12,000+</div>
+                            <div class="stat-label">حالة ناجحة</div>
                         </div>
-                        <div class="stat-box">
-                            <div class="stat-icon">
-                                <i class="fas fa-award"></i>
-                            </div>
-                            <div class="stat-info">
-                                <h3>18</h3>
-                                <p>جائزة دولية</p>
-                            </div>
+                        <div class="stat-item">
+                            <div class="stat-number">18</div>
+                            <div class="stat-label">سنة خبرة</div>
                         </div>
-                        <div class="stat-box">
-                            <div class="stat-icon">
-                                <i class="fas fa-smile-beam"></i>
-                            </div>
-                            <div class="stat-info">
-                                <h3>99%</h3>
-                                <p>رضا العملاء</p>
-                            </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99%</div>
+                            <div class="stat-label">رضا العملاء</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="hero-visual">
-                    <div class="visual-card card-top">
-                        <div class="visual-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="visual-text">
-                            <strong>معتمد دولياً</strong>
-                            <span>ISO 9001:2015</span>
-                        </div>
-                    </div>
-
-                    <div class="visual-main">
-                        <div class="main-placeholder">
+                <div class="hero-image">
+                    <div class="hero-card">
+                        <div class="doctor-placeholder">
                             <i class="fas fa-user-md"></i>
                         </div>
-                        <div class="main-ring ring-1"></div>
-                        <div class="main-ring ring-2"></div>
-                    </div>
-
-                    <div class="visual-card card-bottom">
-                        <div class="visual-icon">
-                            <i class="fas fa-star"></i>
+                        <div class="floating-badge badge-1">
+                            <i class="fas fa-certificate"></i>
+                            <span>معتمد دولياً</span>
                         </div>
-                        <div class="visual-text">
-                            <strong>تقييم 5/5</strong>
-                            <span>من 2,500+ مراجعة</span>
+                        <div class="floating-badge badge-2">
+                            <i class="fas fa-award"></i>
+                            <span>18 جائزة دولية</span>
                         </div>
                     </div>
                 </div>
@@ -179,388 +112,206 @@
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
+    <!-- Services Quick Links -->
+    <section class="services-quick">
         <div class="container-fluid">
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon-box">
-                        <i class="fas fa-shield-alt"></i>
+            <div class="services-quick-grid">
+                <div class="quick-service">
+                    <div class="quick-icon">
+                        <i class="fas fa-tooth"></i>
                     </div>
-                    <h3>ضمان مدى الحياة</h3>
-                    <p>ضمان شامل على جميع عمليات الزراعة والتركيبات</p>
+                    <h3>زراعة الأسنان</h3>
+                    <p>تقنية سويسرية حديثة</p>
                 </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon-box">
-                        <i class="fas fa-user-md"></i>
+                <div class="quick-service">
+                    <div class="quick-icon">
+                        <i class="fas fa-smile-beam"></i>
                     </div>
-                    <h3>فريق متخصص</h3>
-                    <p>أطباء حاصلون على شهادات عالمية معتمدة</p>
+                    <h3>ابتسامة هوليود</h3>
+                    <p>فينير وعدسات فائقة</p>
                 </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon-box">
-                        <i class="fas fa-cogs"></i>
+                <div class="quick-service">
+                    <div class="quick-icon">
+                        <i class="fas fa-teeth"></i>
                     </div>
-                    <h3>أحدث التقنيات</h3>
-                    <p>أجهزة حديثة ومواد طبية من أفضل الشركات العالمية</p>
+                    <h3>تبييض الأسنان</h3>
+                    <p>ليزر وزوم أمريكي</p>
                 </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon-box">
-                        <i class="fas fa-clock"></i>
+                <div class="quick-service">
+                    <div class="quick-icon">
+                        <i class="fas fa-teeth-open"></i>
                     </div>
-                    <h3>متاح دائماً</h3>
-                    <p>خدمات الطوارئ متوفرة على مدار الساعة</p>
+                    <h3>التقويم الشفاف</h3>
+                    <p>إنفزلاين غير مرئي</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-area">
+    <section id="about" class="about-section">
         <div class="container-fluid">
-            <div class="about-wrapper">
-                <div class="about-media">
-                    <div class="media-frame">
-                        <div class="frame-image">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="doctor-photo">
                             <i class="fas fa-user-md"></i>
                         </div>
-                        <div class="frame-decoration deco-1"></div>
-                        <div class="frame-decoration deco-2"></div>
-                    </div>
-
-                    <div class="experience-badge">
-                        <div class="badge-number">18</div>
-                        <div class="badge-label">
-                            <span>سنة من</span>
-                            <strong>الخبرة</strong>
-                        </div>
-                    </div>
-
-                    <div class="achievement-list">
-                        <div class="achievement-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>عضو الأكاديمية الأمريكية</span>
-                        </div>
-                        <div class="achievement-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>زمالة الكلية الملكية البريطانية</span>
-                        </div>
-                        <div class="achievement-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>خبير معتمد في الزراعة</span>
+                        <div class="experience-badge">
+                            <div class="badge-number">18</div>
+                            <div class="badge-text">سنة خبرة</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="about-info">
-                    <div class="section-label">
-                        <span class="label-line"></span>
-                        <span class="label-text">تعرف على الدكتور</span>
-                    </div>
-
-                    <h2 class="section-heading">
+                <div class="about-content">
+                    <span class="section-badge">تعرف على الدكتور</span>
+                    <h2 class="section-title">
                         د. خالد المطيري
-                        <span class="heading-highlight">استشاري طب الأسنان التجميلي</span>
+                        <span class="title-highlight">استشاري طب الأسنان التجميلي</span>
                     </h2>
 
-                    <p class="about-description">
+                    <p class="about-text">
                         مرحباً بكم في مركز التميز لطب الأسنان. أنا د. خالد المطيري، 
-                        استشاري طب الأسنان التجميلي والزراعة، مع خبرة تمتد لأكثر من 18 عاماً 
-                        في هذا المجال. حاصل على شهادة البكالوريوس من جامعة الملك سعود، 
-                        والماجستير والدكتوراه من جامعة نيويورك.
+                        استشاري طب الأسنان التجميلي والزراعة، مع خبرة تمتد لأكثر من 18 عاماً.
                     </p>
 
-                    <p class="about-description">
-                        أؤمن بأن كل مريض يستحق أفضل رعاية ممكنة، ولهذا نستخدم أحدث 
-                        التقنيات العالمية ونلتزم بأعلى معايير الجودة والسلامة.
-                    </p>
-
-                    <div class="qualification-tabs">
-                        <div class="tab-item">
-                            <div class="tab-icon">
-                                <i class="fas fa-graduation-cap"></i>
-                            </div>
-                            <div class="tab-content">
-                                <h4>التعليم</h4>
-                                <ul>
-                                    <li>بكالوريوس طب الأسنان - جامعة الملك سعود</li>
-                                    <li>ماجستير التجميل - جامعة نيويورك</li>
-                                    <li>دكتوراه الزراعة - جامعة هارفارد</li>
-                                </ul>
+                    <div class="qualifications">
+                        <div class="qualification-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <strong>التعليم</strong>
+                                <p>بكالوريوس - جامعة الملك سعود<br>ماجستير ودكتوراه - جامعة نيويورك</p>
                             </div>
                         </div>
-
-                        <div class="tab-item">
-                            <div class="tab-icon">
-                                <i class="fas fa-certificate"></i>
-                            </div>
-                            <div class="tab-content">
-                                <h4>الشهادات</h4>
-                                <ul>
-                                    <li>زمالة الكلية الملكية البريطانية</li>
-                                    <li>عضو الأكاديمية الأمريكية</li>
-                                    <li>شهادة تخصص زراعة - ألمانيا</li>
-                                </ul>
+                        <div class="qualification-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <strong>الشهادات</strong>
+                                <p>زمالة الكلية الملكية البريطانية<br>عضو الأكاديمية الأمريكية</p>
                             </div>
                         </div>
                     </div>
 
-                    <a href="#appointment" class="about-cta">
-                        <span>احجز استشارتك الآن</span>
-                        <i class="fas fa-arrow-left"></i>
-                    </a>
+                    <a href="#appointment" class="btn btn-primary">احجز استشارتك الآن</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services-area">
+    <section id="services" class="services-section">
         <div class="container-fluid">
-            <div class="section-intro">
-                <div class="section-label center">
-                    <span class="label-line"></span>
-                    <span class="label-text">خدماتنا الطبية</span>
-                    <span class="label-line"></span>
-                </div>
-
-                <h2 class="section-heading center">
+            <div class="section-header">
+                <span class="section-badge">خدماتنا الطبية</span>
+                <h2 class="section-title">
                     نقدم أفضل الحلول
-                    <span class="heading-highlight">لجميع مشاكل الأسنان</span>
+                    <span class="title-highlight">لجميع مشاكل الأسنان</span>
                 </h2>
-
-                <p class="section-description center">
-                    مجموعة شاملة من الخدمات الطبية المتقدمة لعلاج وتجميل أسنانك
-                </p>
             </div>
 
-            <div class="services-showcase">
-                <div class="service-item">
-                    <div class="service-number">01</div>
-                    <div class="service-visual">
-                        <div class="service-icon-circle">
-                            <i class="fas fa-tooth"></i>
-                        </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tooth"></i>
                     </div>
-                    <div class="service-details">
-                        <h3>زراعة الأسنان</h3>
-                        <p>زراعة بالتقنية السويسرية والألمانية الحديثة مع ضمان مدى الحياة على جميع الزراعات</p>
-                        <ul class="service-points">
-                            <li><i class="fas fa-check"></i> بدون ألم نهائياً</li>
-                            <li><i class="fas fa-check"></i> نتائج طبيعية 100%</li>
-                            <li><i class="fas fa-check"></i> ضمان مدى الحياة</li>
-                        </ul>
-                        <a href="#appointment" class="service-btn">
-                            <span>احجز الآن</span>
-                            <i class="fas fa-arrow-left"></i>
-                        </a>
-                    </div>
+                    <h3>زراعة الأسنان</h3>
+                    <p>زراعة بالتقنية السويسرية والألمانية مع ضمان مدى الحياة</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> بدون ألم</li>
+                        <li><i class="fas fa-check"></i> نتائج طبيعية</li>
+                        <li><i class="fas fa-check"></i> ضمان مدى الحياة</li>
+                    </ul>
+                    <a href="#appointment" class="service-link">احجز الآن <i class="fas fa-arrow-left"></i></a>
                 </div>
 
-                <div class="service-item reverse">
-                    <div class="service-number">02</div>
-                    <div class="service-visual">
-                        <div class="service-icon-circle">
-                            <i class="fas fa-smile-beam"></i>
-                        </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-smile-beam"></i>
                     </div>
-                    <div class="service-details">
-                        <h3>ابتسامة هوليود</h3>
-                        <p>تصميم ابتسامة متكاملة بأحدث تقنيات الفينير والعدسات اللاصقة الفائقة الجودة</p>
-                        <ul class="service-points">
-                            <li><i class="fas fa-check"></i> تصميم رقمي ثلاثي الأبعاد</li>
-                            <li><i class="fas fa-check"></i> خزف عالي الجودة</li>
-                            <li><i class="fas fa-check"></i> نتائج فورية ومذهلة</li>
-                        </ul>
-                        <a href="#appointment" class="service-btn">
-                            <span>احجز الآن</span>
-                            <i class="fas fa-arrow-left"></i>
-                        </a>
-                    </div>
+                    <h3>ابتسامة هوليود</h3>
+                    <p>تصميم ابتسامة متكاملة بأحدث تقنيات الفينير والعدسات</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> تصميم رقمي ثلاثي</li>
+                        <li><i class="fas fa-check"></i> خزف عالي الجودة</li>
+                        <li><i class="fas fa-check"></i> نتائج فورية</li>
+                    </ul>
+                    <a href="#appointment" class="service-link">احجز الآن <i class="fas fa-arrow-left"></i></a>
                 </div>
 
-                <div class="service-item">
-                    <div class="service-number">03</div>
-                    <div class="service-visual">
-                        <div class="service-icon-circle">
-                            <i class="fas fa-teeth"></i>
-                        </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-teeth"></i>
                     </div>
-                    <div class="service-details">
-                        <h3>التبييض المتقدم</h3>
-                        <p>تبييض بتقنية الليزر والزوم الأمريكية للحصول على بياض ناصع يدوم لسنوات</p>
-                        <ul class="service-points">
-                            <li><i class="fas fa-check"></i> نتائج فورية في جلسة واحدة</li>
-                            <li><i class="fas fa-check"></i> بدون حساسية</li>
-                            <li><i class="fas fa-check"></i> يدوم لسنوات طويلة</li>
-                        </ul>
-                        <a href="#appointment" class="service-btn">
-                            <span>احجز الآن</span>
-                            <i class="fas fa-arrow-left"></i>
-                        </a>
-                    </div>
+                    <h3>تبييض الأسنان</h3>
+                    <p>تبييض بتقنية الليزر والزوم الأمريكية للحصول على بياض ناصع</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> نتائج فورية</li>
+                        <li><i class="fas fa-check"></i> بدون حساسية</li>
+                        <li><i class="fas fa-check"></i> يدوم طويلاً</li>
+                    </ul>
+                    <a href="#appointment" class="service-link">احجز الآن <i class="fas fa-arrow-left"></i></a>
                 </div>
 
-                <div class="service-item reverse">
-                    <div class="service-number">04</div>
-                    <div class="service-visual">
-                        <div class="service-icon-circle">
-                            <i class="fas fa-teeth-open"></i>
-                        </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-teeth-open"></i>
                     </div>
-                    <div class="service-details">
-                        <h3>التقويم الشفاف</h3>
-                        <p>تقويم انفزلاين غير مرئي وقابل للإزالة لتصحيح اصطفاف الأسنان بشكل مريح وجمالي</p>
-                        <ul class="service-points">
-                            <li><i class="fas fa-check"></i> غير مرئي تماماً</li>
-                            <li><i class="fas fa-check"></i> قابل للإزالة</li>
-                            <li><i class="fas fa-check"></i> مريح ولا يؤثر على الكلام</li>
-                        </ul>
-                        <a href="#appointment" class="service-btn">
-                            <span>احجز الآن</span>
-                            <i class="fas fa-arrow-left"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="more-services">
-                <h3>خدمات إضافية</h3>
-                <div class="extra-services">
-                    <div class="extra-service">
-                        <i class="fas fa-tooth"></i>
-                        <span>علاج الجذور</span>
-                    </div>
-                    <div class="extra-service">
-                        <i class="fas fa-tooth"></i>
-                        <span>تركيبات ثابتة</span>
-                    </div>
-                    <div class="extra-service">
-                        <i class="fas fa-tooth"></i>
-                        <span>علاج اللثة</span>
-                    </div>
-                    <div class="extra-service">
-                        <i class="fas fa-baby"></i>
-                        <span>طب أسنان الأطفال</span>
-                    </div>
-                    <div class="extra-service">
-                        <i class="fas fa-tooth"></i>
-                        <span>جراحة الفم</span>
-                    </div>
-                    <div class="extra-service">
-                        <i class="fas fa-tooth"></i>
-                        <span>تنظيف وتقليح</span>
-                    </div>
+                    <h3>التقويم الشفاف</h3>
+                    <p>تقويم انفزلاين غير مرئي وقابل للإزالة لتصحيح الأسنان</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> غير مرئي</li>
+                        <li><i class="fas fa-check"></i> قابل للإزالة</li>
+                        <li><i class="fas fa-check"></i> مريح جداً</li>
+                    </ul>
+                    <a href="#appointment" class="service-link">احجز الآن <i class="fas fa-arrow-left"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery-area">
+    <section id="gallery" class="gallery-section">
         <div class="container-fluid">
-            <div class="section-intro">
-                <div class="section-label center">
-                    <span class="label-line"></span>
-                    <span class="label-text">معرض أعمالنا</span>
-                    <span class="label-line"></span>
-                </div>
-
-                <h2 class="section-heading center">
+            <div class="section-header">
+                <span class="section-badge">معرض أعمالنا</span>
+                <h2 class="section-title">
                     نتائج حقيقية
-                    <span class="heading-highlight">لمرضانا السعداء</span>
+                    <span class="title-highlight">لمرضانا السعداء</span>
                 </h2>
-
-                <p class="section-description center">
-                    شاهد التحولات المذهلة التي حققناها لمرضانا
-                </p>
             </div>
 
-            <div class="gallery-masonry">
-                <div class="gallery-box">
-                    <div class="gallery-thumb">
-                        <i class="fas fa-image"></i>
-                        <span class="thumb-label">قبل وبعد</span>
-                    </div>
-                    <div class="gallery-info">
+            <div class="gallery-grid">
+                <div class="gallery-item" style="background: linear-gradient(135deg, #0ea5e9, #06b6d4);">
+                    <i class="fas fa-image"></i>
+                    <div class="gallery-overlay">
                         <h4>تبييض الأسنان</h4>
-                        <p>تبييض بتقنية الليزر</p>
-                        <button class="view-button">
-                            <i class="fas fa-search-plus"></i>
-                        </button>
+                        <p>قبل وبعد</p>
                     </div>
                 </div>
-
-                <div class="gallery-box tall">
-                    <div class="gallery-thumb">
-                        <i class="fas fa-image"></i>
-                        <span class="thumb-label">قبل وبعد</span>
-                    </div>
-                    <div class="gallery-info">
+                <div class="gallery-item" style="background: linear-gradient(135deg, #8b5cf6, #ec4899);">
+                    <i class="fas fa-image"></i>
+                    <div class="gallery-overlay">
                         <h4>ابتسامة هوليود</h4>
-                        <p>فينير كامل للفكين</p>
-                        <button class="view-button">
-                            <i class="fas fa-search-plus"></i>
-                        </button>
+                        <p>قبل وبعد</p>
                     </div>
                 </div>
-
-                <div class="gallery-box">
-                    <div class="gallery-thumb">
-                        <i class="fas fa-image"></i>
-                        <span class="thumb-label">قبل وبعد</span>
-                    </div>
-                    <div class="gallery-info">
+                <div class="gallery-item" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">
+                    <i class="fas fa-image"></i>
+                    <div class="gallery-overlay">
                         <h4>زراعة الأسنان</h4>
-                        <p>زراعة متعددة</p>
-                        <button class="view-button">
-                            <i class="fas fa-search-plus"></i>
-                        </button>
+                        <p>قبل وبعد</p>
                     </div>
                 </div>
-
-                <div class="gallery-box">
-                    <div class="gallery-thumb">
-                        <i class="fas fa-image"></i>
-                        <span class="thumb-label">قبل وبعد</span>
-                    </div>
-                    <div class="gallery-info">
+                <div class="gallery-item" style="background: linear-gradient(135deg, #10b981, #3b82f6);">
+                    <i class="fas fa-image"></i>
+                    <div class="gallery-overlay">
                         <h4>التقويم الشفاف</h4>
-                        <p>انفزلاين كامل</p>
-                        <button class="view-button">
-                            <i class="fas fa-search-plus"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="gallery-box wide">
-                    <div class="gallery-thumb">
-                        <i class="fas fa-image"></i>
-                        <span class="thumb-label">قبل وبعد</span>
-                    </div>
-                    <div class="gallery-info">
-                        <h4>تركيبات ثابتة</h4>
-                        <p>جسور خزفية</p>
-                        <button class="view-button">
-                            <i class="fas fa-search-plus"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="gallery-box">
-                    <div class="gallery-thumb">
-                        <i class="fas fa-image"></i>
-                        <span class="thumb-label">قبل وبعد</span>
-                    </div>
-                    <div class="gallery-info">
-                        <h4>علاج اللثة</h4>
-                        <p>علاج شامل</p>
-                        <button class="view-button">
-                            <i class="fas fa-search-plus"></i>
-                        </button>
+                        <p>قبل وبعد</p>
                     </div>
                 </div>
             </div>
@@ -568,115 +319,82 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials-area">
+    <section id="testimonials" class="testimonials-section">
         <div class="container-fluid">
-            <div class="section-intro">
-                <div class="section-label center">
-                    <span class="label-line"></span>
-                    <span class="label-text">آراء مرضانا</span>
-                    <span class="label-line"></span>
-                </div>
-
-                <h2 class="section-heading center">
+            <div class="section-header">
+                <span class="section-badge">آراء مرضانا</span>
+                <h2 class="section-title">
                     ماذا يقول
-                    <span class="heading-highlight">عملاؤنا السعداء</span>
+                    <span class="title-highlight">عملاؤنا السعداء</span>
                 </h2>
-
-                <p class="section-description center">
-                    تجارب حقيقية من مرضى حصلوا على ابتسامة أحلامهم
-                </p>
             </div>
 
-            <div class="testimonials-slider">
-                <div class="testimonial-box">
-                    <div class="quote-mark">
-                        <i class="fas fa-quote-right"></i>
-                    </div>
-                    <div class="testimonial-rating">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-content">
+                    <p class="testimonial-text">
                         "تجربة رائعة بكل المقاييس! د. خالد محترف جداً ويهتم بأدق التفاصيل. 
-                        عملت ابتسامة هوليود وأنا سعيدة جداً بالنتيجة. العيادة فخمة والطاقم 
-                        راقي ومحترم. أنصح الجميع بزيارة المركز."
+                        عملت ابتسامة هوليود وأنا سعيدة جداً بالنتيجة."
                     </p>
-                    <div class="patient-profile">
-                        <div class="patient-avatar">
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
                             <i class="fas fa-user"></i>
                         </div>
-                        <div class="patient-details">
-                            <h4>أمل الحربي</h4>
+                        <div class="author-info">
+                            <strong>أمل الحربي</strong>
                             <span>ابتسامة هوليود</span>
-                            <div class="review-date">
-                                <i class="fas fa-calendar"></i>
-                                منذ شهرين
-                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="testimonial-box">
-                    <div class="quote-mark">
-                        <i class="fas fa-quote-right"></i>
-                    </div>
-                    <div class="testimonial-rating">
+                <div class="testimonial-card">
+                    <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-content">
-                        "أفضل طبيب أسنان زرته في حياتي! كنت أعاني من مشكلة في أسناني 
-                        منذ سنوات، وبفضل الله ثم د. خالد تم علاجها بشكل كامل. الزراعة 
-                        كانت بدون ألم وشكل الأسنان طبيعي جداً."
+                    <p class="testimonial-text">
+                        "أفضل طبيب أسنان زرته في حياتي! الزراعة كانت بدون ألم وشكل الأسنان 
+                        طبيعي جداً. شكراً جزيلاً."
                     </p>
-                    <div class="patient-profile">
-                        <div class="patient-avatar">
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
                             <i class="fas fa-user"></i>
                         </div>
-                        <div class="patient-details">
-                            <h4>عبدالرحمن السعيد</h4>
+                        <div class="author-info">
+                            <strong>عبدالرحمن السعيد</strong>
                             <span>زراعة الأسنان</span>
-                            <div class="review-date">
-                                <i class="fas fa-calendar"></i>
-                                منذ 3 أشهر
-                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="testimonial-box">
-                    <div class="quote-mark">
-                        <i class="fas fa-quote-right"></i>
-                    </div>
-                    <div class="testimonial-rating">
+                <div class="testimonial-card">
+                    <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-content">
-                        "كنت خائفة جداً من موضوع التقويم، لكن د. خالد طمأنني وشرح لي 
-                        كل شيء بالتفصيل. التقويم الشفاف مريح ولا يظهر أبداً. النتيجة 
-                        فاقت توقعاتي! شكراً جزيلاً."
+                    <p class="testimonial-text">
+                        "التقويم الشفاف مريح ولا يظهر أبداً. النتيجة فاقت توقعاتي! 
+                        شكراً د. خالد."
                     </p>
-                    <div class="patient-profile">
-                        <div class="patient-avatar">
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
                             <i class="fas fa-user"></i>
                         </div>
-                        <div class="patient-details">
-                            <h4>نورة المالكي</h4>
+                        <div class="author-info">
+                            <strong>نورة المالكي</strong>
                             <span>التقويم الشفاف</span>
-                            <div class="review-date">
-                                <i class="fas fa-calendar"></i>
-                                منذ شهر
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -685,77 +403,68 @@
     </section>
 
     <!-- Appointment Section -->
-    <section id="appointment" class="appointment-area">
+    <section id="appointment" class="appointment-section">
         <div class="container-fluid">
-            <div class="appointment-container">
-                <div class="appointment-left">
-                    <div class="appointment-intro">
-                        <div class="section-label">
-                            <span class="label-line"></span>
-                            <span class="label-text">احجز موعدك</span>
-                        </div>
+            <div class="appointment-wrapper">
+                <div class="appointment-info">
+                    <span class="section-badge">احجز موعدك</span>
+                    <h2 class="section-title">
+                        ابدأ رحلتك نحو
+                        <span class="title-highlight">ابتسامة مثالية</span>
+                    </h2>
 
-                        <h2 class="section-heading">
-                            ابدأ رحلتك نحو
-                            <span class="heading-highlight">ابتسامة مثالية</span>
-                        </h2>
+                    <p class="info-text">
+                        أهلاً بك في مركز التميز لطب الأسنان. 
+                        الاستشارة الأولى مجانية تماماً.
+                    </p>
 
-                        <p class="appointment-desc">
-                            املأ النموذج وسنتواصل معك خلال 24 ساعة لتأكيد موعدك. 
-                            الاستشارة الأولى مجانية تماماً.
-                        </p>
-                    </div>
-
-                    <div class="contact-cards">
-                        <div class="contact-card">
-                            <div class="contact-icon">
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <div class="info-icon">
                                 <i class="fas fa-phone-alt"></i>
                             </div>
-                            <div class="contact-text">
-                                <h4>اتصل بنا</h4>
-                                <p>+966 50 123 4567</p>
+                            <div class="info-details">
+                                <strong>اتصل بنا</strong>
+                                <p>966+ 50 123 4567</p>
                                 <span>متاح على مدار الساعة</span>
                             </div>
                         </div>
 
-                        <div class="contact-card">
-                            <div class="contact-icon">
+                        <div class="contact-info-item">
+                            <div class="info-icon">
                                 <i class="fas fa-envelope"></i>
                             </div>
-                            <div class="contact-text">
-                                <h4>راسلنا</h4>
+                            <div class="info-details">
+                                <strong>راسلنا</strong>
                                 <p>info@dental.sa</p>
                                 <span>نرد خلال ساعات</span>
                             </div>
                         </div>
 
-                        <div class="contact-card">
-                            <div class="contact-icon">
+                        <div class="contact-info-item">
+                            <div class="info-icon">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <div class="contact-text">
-                                <h4>زرنا</h4>
+                            <div class="info-details">
+                                <strong>زرنا</strong>
                                 <p>طريق الملك فهد، الرياض</p>
                                 <span>برج المملكة، الدور 15</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="working-hours">
-                        <h4>
-                            <i class="fas fa-clock"></i>
-                            أوقات العمل
-                        </h4>
-                        <div class="hours-grid">
-                            <div class="hour-row">
+                    <div class="working-hours-box">
+                        <h4><i class="fas fa-clock"></i> أوقات العمل</h4>
+                        <div class="hours-list">
+                            <div class="hours-item">
                                 <span>السبت - الأربعاء</span>
                                 <strong>8:00 ص - 10:00 م</strong>
                             </div>
-                            <div class="hour-row">
+                            <div class="hours-item">
                                 <span>الخميس</span>
                                 <strong>8:00 ص - 6:00 م</strong>
                             </div>
-                            <div class="hour-row">
+                            <div class="hours-item">
                                 <span>الجمعة</span>
                                 <strong class="closed">مغلق</strong>
                             </div>
@@ -763,28 +472,27 @@
                     </div>
                 </div>
 
-                <div class="appointment-right">
-                    <form id="appointmentForm" class="booking-form">
+                <div class="appointment-form-wrapper">
+                    <form id="appointmentForm" class="appointment-form">
                         <div class="form-header">
                             <i class="fas fa-calendar-check"></i>
                             <h3>نموذج الحجز</h3>
                         </div>
 
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="patientName">
-                                    <i class="fas fa-user"></i>
-                                    الاسم الكامل
-                                </label>
-                                <input 
-                                    type="text" 
-                                    id="patientName" 
-                                    name="patientName" 
-                                    placeholder="أدخل اسمك الكامل" 
-                                    required
-                                >
-                            </div>
+                        <div class="form-group">
+                            <label for="patientName">
+                                <i class="fas fa-user"></i>
+                                الاسم الكامل
+                            </label>
+                            <input 
+                                type="text" 
+                                id="patientName" 
+                                placeholder="أدخل اسمك الكامل" 
+                                required
+                            >
+                        </div>
 
+                        <div class="form-row">
                             <div class="form-group">
                                 <label for="patientPhone">
                                     <i class="fas fa-phone"></i>
@@ -793,24 +501,22 @@
                                 <input 
                                     type="tel" 
                                     id="patientPhone" 
-                                    name="patientPhone" 
                                     placeholder="05xxxxxxxx" 
                                     required
                                 >
                             </div>
-                        </div>
 
-                        <div class="form-group">
-                            <label for="patientEmail">
-                                <i class="fas fa-envelope"></i>
-                                البريد الإلكتروني
-                            </label>
-                            <input 
-                                type="email" 
-                                id="patientEmail" 
-                                name="patientEmail" 
-                                placeholder="example@email.com"
-                            >
+                            <div class="form-group">
+                                <label for="patientEmail">
+                                    <i class="fas fa-envelope"></i>
+                                    البريد الإلكتروني
+                                </label>
+                                <input 
+                                    type="email" 
+                                    id="patientEmail" 
+                                    placeholder="example@email.com"
+                                >
+                            </div>
                         </div>
 
                         <div class="form-row">
@@ -822,7 +528,6 @@
                                 <input 
                                     type="date" 
                                     id="visitDate" 
-                                    name="visitDate" 
                                     required
                                 >
                             </div>
@@ -832,14 +537,12 @@
                                     <i class="fas fa-clock"></i>
                                     الوقت المفضل
                                 </label>
-                                <select id="visitTime" name="visitTime" required>
+                                <select id="visitTime" required>
                                     <option value="">اختر الوقت</option>
                                     <option value="08:00">8:00 صباحاً</option>
                                     <option value="09:00">9:00 صباحاً</option>
                                     <option value="10:00">10:00 صباحاً</option>
                                     <option value="11:00">11:00 صباحاً</option>
-                                    <option value="12:00">12:00 ظهراً</option>
-                                    <option value="13:00">1:00 مساءً</option>
                                     <option value="14:00">2:00 مساءً</option>
                                     <option value="15:00">3:00 مساءً</option>
                                     <option value="16:00">4:00 مساءً</option>
@@ -847,7 +550,6 @@
                                     <option value="18:00">6:00 مساءً</option>
                                     <option value="19:00">7:00 مساءً</option>
                                     <option value="20:00">8:00 مساءً</option>
-                                    <option value="21:00">9:00 مساءً</option>
                                 </select>
                             </div>
                         </div>
@@ -857,20 +559,15 @@
                                 <i class="fas fa-tooth"></i>
                                 الخدمة المطلوبة
                             </label>
-                            <select id="serviceNeeded" name="serviceNeeded" required>
+                            <select id="serviceNeeded" required>
                                 <option value="">اختر الخدمة</option>
                                 <option value="consultation">استشارة وفحص شامل</option>
-                                <option value="cleaning">تنظيف وتقليح</option>
-                                <option value="whitening">تبييض الأسنان</option>
                                 <option value="implant">زراعة الأسنان</option>
                                 <option value="hollywood">ابتسامة هوليود</option>
-                                <option value="invisalign">تقويم شفاف (انفزلاين)</option>
+                                <option value="whitening">تبييض الأسنان</option>
+                                <option value="invisalign">تقويم شفاف</option>
                                 <option value="braces">تقويم تقليدي</option>
-                                <option value="gum">علاج اللثة</option>
-                                <option value="root-canal">علاج العصب</option>
-                                <option value="crown">تركيبات ثابتة</option>
-                                <option value="kids">طب أسنان الأطفال</option>
-                                <option value="emergency">حالة طارئة</option>
+                                <option value="cleaning">تنظيف وتقليح</option>
                                 <option value="other">خدمة أخرى</option>
                             </select>
                         </div>
@@ -882,27 +579,19 @@
                             </label>
                             <textarea 
                                 id="patientMessage" 
-                                name="patientMessage" 
                                 rows="4" 
-                                placeholder="اكتب أي ملاحظات أو استفسارات..."
+                                placeholder="اكتب أي ملاحظات..."
                             ></textarea>
                         </div>
 
-                        <div class="form-checkbox-group">
-                            <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
-                            <label for="agreeTerms" class="checkbox-label">
-                                أوافق على <a href="#">شروط الخدمة</a> و <a href="#">سياسة الخصوصية</a>
-                            </label>
-                        </div>
-
-                        <button type="submit" class="submit-button">
+                        <button type="submit" class="submit-btn">
                             <span class="btn-content">
                                 <i class="fas fa-paper-plane"></i>
-                                <span>إرسال طلب الحجز</span>
+                                إرسال طلب الحجز
                             </span>
-                            <span class="btn-loader">
+                            <span class="btn-loader" style="display: none;">
                                 <i class="fas fa-spinner fa-spin"></i>
-                                <span>جارٍ الإرسال...</span>
+                                جارٍ الإرسال...
                             </span>
                         </button>
 
@@ -913,149 +602,74 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-area">
-        <div class="container-fluid">
-            <div class="contact-wrapper">
-                <div class="map-section">
-                    <div class="map-frame">
-                        <div class="map-placeholder">
-                            <i class="fas fa-map-marked-alt"></i>
-                            <p>خريطة الموقع</p>
-                            <span>طريق الملك فهد، الرياض</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="social-section">
-                    <h3>تابعنا على</h3>
-                    <p>ابق على اطلاع بآخر أخبارنا وعروضنا</p>
-                    
-                    <div class="social-grid">
-                        <a href="#" class="social-link facebook">
-                            <i class="fab fa-facebook-f"></i>
-                            <span>Facebook</span>
-                        </a>
-                        <a href="#" class="social-link instagram">
-                            <i class="fab fa-instagram"></i>
-                            <span>Instagram</span>
-                        </a>
-                        <a href="#" class="social-link twitter">
-                            <i class="fab fa-twitter"></i>
-                            <span>Twitter</span>
-                        </a>
-                        <a href="#" class="social-link snapchat">
-                            <i class="fab fa-snapchat-ghost"></i>
-                            <span>Snapchat</span>
-                        </a>
-                        <a href="#" class="social-link whatsapp">
-                            <i class="fab fa-whatsapp"></i>
-                            <span>WhatsApp</span>
-                        </a>
-                        <a href="#" class="social-link youtube">
-                            <i class="fab fa-youtube"></i>
-                            <span>YouTube</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
-    <footer class="footer-area">
-        <div class="footer-main">
-            <div class="container-fluid">
-                <div class="footer-grid">
-                    <div class="footer-col about-col">
-                        <div class="footer-logo">
-                            <div class="footer-logo-icon">
-                                <i class="fas fa-tooth"></i>
-                            </div>
-                            <div class="footer-logo-text">
-                                <h3>مركز التميز</h3>
-                                <p>لطب الأسنان</p>
-                            </div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <i class="fas fa-tooth"></i>
                         </div>
-                        <p class="footer-about">
-                            مركز طبي متخصص في طب الأسنان التجميلي والعلاجي، 
-                            نقدم أفضل الخدمات بأحدث التقنيات وأعلى معايير الجودة.
-                        </p>
-                        <div class="footer-socials">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        <div>
+                            <h3>مركز التميز</h3>
+                            <p>لطب الأسنان</p>
                         </div>
                     </div>
-
-                    <div class="footer-col">
-                        <h4>روابط سريعة</h4>
-                        <ul class="footer-links">
-                            <li><a href="#home"><i class="fas fa-angle-left"></i> الرئيسية</a></li>
-                            <li><a href="#about"><i class="fas fa-angle-left"></i> عن الدكتور</a></li>
-                            <li><a href="#services"><i class="fas fa-angle-left"></i> خدماتنا</a></li>
-                            <li><a href="#gallery"><i class="fas fa-angle-left"></i> معرض الأعمال</a></li>
-                            <li><a href="#testimonials"><i class="fas fa-angle-left"></i> آراء المرضى</a></li>
-                            <li><a href="#appointment"><i class="fas fa-angle-left"></i> احجز موعد</a></li>
-                        </ul>
+                    <p class="footer-about">
+                        مركز طبي متخصص في طب الأسنان التجميلي والعلاجي بأحدث التقنيات
+                    </p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
                     </div>
+                </div>
 
-                    <div class="footer-col">
-                        <h4>خدماتنا</h4>
-                        <ul class="footer-links">
-                            <li><a href="#"><i class="fas fa-angle-left"></i> زراعة الأسنان</a></li>
-                            <li><a href="#"><i class="fas fa-angle-left"></i> ابتسامة هوليود</a></li>
-                            <li><a href="#"><i class="fas fa-angle-left"></i> تبييض الأسنان</a></li>
-                            <li><a href="#"><i class="fas fa-angle-left"></i> التقويم الشفاف</a></li>
-                            <li><a href="#"><i class="fas fa-angle-left"></i> علاج الجذور</a></li>
-                            <li><a href="#"><i class="fas fa-angle-left"></i> طب أسنان الأطفال</a></li>
-                        </ul>
-                    </div>
+                <div class="footer-col">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">عن الدكتور</a></li>
+                        <li><a href="#services">الخدمات</a></li>
+                        <li><a href="#gallery">معرض الأعمال</a></li>
+                        <li><a href="#appointment">احجز موعد</a></li>
+                    </ul>
+                </div>
 
-                    <div class="footer-col">
-                        <h4>تواصل معنا</h4>
-                        <ul class="footer-contacts">
-                            <li>
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div>
-                                    <strong>العنوان</strong>
-                                    <p>طريق الملك فهد، الرياض<br>برج المملكة، الدور 15</p>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fas fa-phone-alt"></i>
-                                <div>
-                                    <strong>الهاتف</strong>
-                                    <p>+966 50 123 4567</p>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope"></i>
-                                <div>
-                                    <strong>البريد</strong>
-                                    <p>info@dental.sa</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="footer-col">
+                    <h4>خدماتنا</h4>
+                    <ul>
+                        <li><a href="#">زراعة الأسنان</a></li>
+                        <li><a href="#">ابتسامة هوليود</a></li>
+                        <li><a href="#">تبييض الأسنان</a></li>
+                        <li><a href="#">التقويم الشفاف</a></li>
+                        <li><a href="#">علاج الجذور</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>تواصل معنا</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            طريق الملك فهد، الرياض<br>برج المملكة، الدور 15
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            966+ 50 123 4567
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            info@dental.sa
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
 
-        <div class="footer-bottom">
-            <div class="container-fluid">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2024 مركز التميز لطب الأسنان. جميع الحقوق محفوظة.</p>
-                    <div class="footer-bottom-links">
-                        <a href="#">سياسة الخصوصية</a>
-                        <span>|</span>
-                        <a href="#">الشروط والأحكام</a>
-                        <span>|</span>
-                        <a href="#">خريطة الموقع</a>
-                    </div>
-                </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 مركز التميز لطب الأسنان. جميع الحقوق محفوظة.</p>
             </div>
         </div>
     </footer>
