@@ -1169,56 +1169,64 @@ img {
 /* ===========================
    Footer
    =========================== */
-/* --- تنسيقات الفوتر الجديد --- */
-.footer {
-    background-color: #24262b; /* لون خلفية داكن */
-    padding: 70px 0 20px; /* مسافات داخلية */
+/* --- تنسيقات الفوتر الجديد (Fixed) --- */
+.custom-footer {
+    background-color: #24262b !important; /* فرض اللون الداكن */
+    padding: 70px 0 20px;
     color: #ffffff;
-    font-family: 'Cairo', sans-serif; /* تأكد من استخدام نفس الخط الموجود في موقعك */
-    direction: rtl; /* لجعل الاتجاه من اليمين لليسار */
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
     text-align: right;
+    width: 100%;
+    position: relative;
+    display: block; /* ضمان الظهور ككتلة */
 }
 
-.container {
+.custom-footer .container {
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
 }
 
-.row {
+.custom-footer .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.footer-col {
-    width: 22%; /* عرض كل عمود */
+.custom-footer .footer-col {
+    width: 22%;
     padding: 0 15px;
     margin-bottom: 30px;
 }
 
-/* تنسيق الشعار في الفوتر */
-.footer-logo {
+/* الشعار */
+.custom-footer .footer-logo {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
-    color: #0ef; /* اللون المميز في موقعك (Cyan) */
+    color: #0ef;
 }
 
-.footer-logo i {
+.custom-footer .footer-logo i {
     font-size: 24px;
 }
 
-.footer-desc {
+.custom-footer .footer-logo h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.custom-footer .footer-desc {
     font-size: 15px;
     line-height: 1.6;
     color: #bbbbbb;
     margin-bottom: 20px;
 }
 
-/* عناوين الأعمدة */
-.footer-col h4 {
+/* العناوين */
+.custom-footer .footer-col h4 {
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
@@ -1228,29 +1236,29 @@ img {
     padding-bottom: 10px;
 }
 
-/* الخط الصغير تحت العناوين */
-.footer-col h4::before {
+.custom-footer .footer-col h4::before {
     content: '';
     position: absolute;
     right: 0;
     bottom: 0;
-    background-color: #0ef; /* اللون المميز */
+    background-color: #0ef;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
 }
 
-/* تنسيق القوائم */
-.footer-col ul {
+/* الروابط */
+.custom-footer ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-.footer-col ul li:not(:last-child) {
+.custom-footer ul li:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.footer-col ul li a {
+.custom-footer ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: #bbbbbb;
@@ -1260,19 +1268,18 @@ img {
     transition: all 0.3s ease;
 }
 
-/* تأثير التحويم (Hover) على الروابط */
-.footer-col ul li a:hover {
+.custom-footer ul li a:hover {
     color: #0ef;
-    padding-right: 8px; /* تحريك النص قليلاً لليسار */
+    padding-right: 8px;
 }
 
-/* أيقونات التواصل الاجتماعي */
-.social-links a {
+/* السوشيال ميديا */
+.custom-footer .social-links a {
     display: inline-block;
     height: 40px;
     width: 40px;
     background-color: rgba(255,255,255,0.2);
-    margin-left: 10px; /* مسافة بين الأيقونات */
+    margin-left: 10px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -1281,13 +1288,13 @@ img {
     text-decoration: none;
 }
 
-.social-links a:hover {
+.custom-footer .social-links a:hover {
     color: #24262b;
     background-color: #0ef;
 }
 
 /* معلومات التواصل */
-.contact-info p {
+.custom-footer .contact-info p {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1296,12 +1303,13 @@ img {
     font-size: 15px;
 }
 
-.contact-info i {
+.custom-footer .contact-info i {
     color: #0ef;
+    min-width: 20px; /* لضبط محاذاة الأيقونات */
 }
 
-/* الجزء السفلي (حقوق النشر) */
-.footer-bottom {
+/* حقوق النشر */
+.custom-footer .footer-bottom {
     border-top: 1px solid rgba(255,255,255,0.1);
     padding-top: 20px;
     margin-top: 20px;
@@ -1310,269 +1318,30 @@ img {
     font-size: 14px;
 }
 
-/* --- التجاوب مع الشاشات (Responsive) --- */
+/* Responsive */
 @media(max-width: 767px) {
-    .footer-col {
+    .custom-footer .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
 @media(max-width: 574px) {
-    .footer-col {
-        width: 100%; /* عمود واحد في الموبايل */
-        text-align: center; /* توسيط النص في الموبايل */
+    .custom-footer .footer-col {
+        width: 100%;
+        text-align: center;
     }
-    
-    .footer-col h4::before {
+    .custom-footer .footer-col h4::before {
         right: 50%;
-        transform: translateX(50%); /* توسيط الخط تحت العنوان */
+        transform: translateX(50%);
     }
-
-    .contact-info p {
+    .custom-footer .contact-info p {
         justify-content: center;
     }
-    
-    .footer-logo {
+    .custom-footer .footer-logo {
         justify-content: center;
     }
 }
-/* ===========================
-   Back to Top Button
-   =========================== */
-.back-to-top {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: var(--white-color);
-    border-radius: 50%;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    box-shadow: var(--shadow-lg);
-    cursor: pointer;
-    transition: var(--transition);
-    z-index: 999;
-}
-
-.back-to-top.show {
-    display: flex;
-}
-
-.back-to-top:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-xl);
-}
-
-/* ===========================
-   Animations
-   =========================== */
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* ===========================
-   Responsive Design
-   =========================== */
-@media (max-width: 1200px) {
-    .hero-content,
-    .about-grid {
-        grid-template-columns: 1fr;
-        gap: 48px;
-    }
-
-    .hero-image {
-        order: -1;
-    }
-
-    .footer-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 992px) {
-    .appointment-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-
-    .services-quick-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .nav-menu {
-        position: fixed;
-        top: 88px;
-        right: -100%;
-        width: 100%;
-        height: calc(100vh - 88px);
-        background: var(--white-color);
-        flex-direction: column;
-        padding: 40px 20px;
-        box-shadow: var(--shadow-lg);
-        transition: var(--transition);
-        overflow-y: auto;
-    }
-
-    .nav-menu.active {
-        right: 0;
-    }
-
-    .mobile-toggle {
-        display: flex;
-    }
-
-    .navbar-cta .cta-button {
-        display: none;
-    }
-
-    .hero-title {
-        font-size: 36px;
-    }
-
-    .section-title {
-        font-size: 32px;
-    }
-
-    .title-highlight {
-        font-size: 28px;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-    }
-
-    .btn {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .hero-stats {
-        flex-direction: column;
-        gap: 16px;
-    }
-
-    .stat-item {
-        width: 100%;
-    }
-
-    .floating-badge {
-        position: static;
-        margin-bottom: 16px;
-    }
-
-    .experience-badge {
-        position: static;
-        margin-top: 20px;
-    }
-
-    .services-quick-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .services-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .gallery-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .testimonials-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .appointment-info,
-    .appointment-form-wrapper {
-        padding: 32px 24px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero {
-        padding: 60px 0;
-    }
-
-    .hero-title {
-        font-size: 28px;
-    }
-
-    .hero-description {
-        font-size: 16px;
-    }
-
-    .section-title {
-        font-size: 26px;
-    }
-
-    .title-highlight {
-        font-size: 22px;
-    }
-
-    .btn {
-        padding: 12px 24px;
-        font-size: 14px;
-    }
-
-    .stat-number {
-        font-size: 28px;
-    }
-
-    .doctor-placeholder,
-    .doctor-photo {
-        font-size: 80px;
-    }
-
-    .services-section,
-    .gallery-section,
-    .testimonials-section,
-    .appointment-section,
-    .about-section {
-        padding: 60px 0;
-    }
-
-    .footer {
-        padding: 60px 0 0;
-    }
-
-    .back-to-top {
-        bottom: 20px;
-        left: 20px;
-        width: 45px;
-        height: 45px;
-        font-size: 18px;
-    }
-}
-
 /* ===========================
    Print Styles
    =========================== */
